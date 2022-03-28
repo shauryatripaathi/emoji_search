@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
-import NavBar from './NavBar';
+import NavBar from './Header/NavBar';
+// import EmojiList from './emoji-list/EmojiList';
+
 
 function App() {
   return (
