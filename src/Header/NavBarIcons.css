@@ -1,8 +1,5 @@
 .sideIcons{
     display : flex;
     flex-direction: row;
-    gap: 15px;
-}
-.x{
-    border-radius: 15px;
+    gap: 4px;
 }

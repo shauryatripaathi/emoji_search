@@ -1,16 +1,17 @@
 import SearchBar from './SearchBar'
 import './NavBarIcons.css'
+import ActionButton from '../ActionButton'
 export default function NavBarIcons(){
     return(
         <>
             <div className = 'sideIcons'>
                 <SearchBar/>
-               <button className='x'>X</button>
-               <button>A</button>
-               <button>B</button>
-               <button>C</button>
-               <button>D</button>
-               <button>E</button>
+                <ActionButton btn = 'X'/>
+                <ActionButton btn = 'A'/>
+                <ActionButton btn = 'B'/>
+                <ActionButton btn = 'C'/>
+                <ActionButton btn = 'D'/>
+                <ActionButton btn = 'E'/>
             </div>
         </>
     )
