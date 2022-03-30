@@ -3,7 +3,6 @@ import './App.css';
 import NavBar from './Header/NavBar';
 // import EmojiList from './emoji-list/EmojiList';
 
-
 function App() {
   return (
   <NavBar/>
