@@ -1,7 +1,8 @@
-.navbar{
-    padding: 15px;
+.navBar{
     background-color: black;
-    color : white;
+    color: white;
+    padding: 13px;
     display: flex;
     justify-content: center;
+    gap: 4px;
 }
