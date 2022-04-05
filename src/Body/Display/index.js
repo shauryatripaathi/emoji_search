@@ -1,10 +1,10 @@
 import data from '../../data/data.json'
 import EmojiExtract from '../EmojiExtract'
+import SearchBar from '../../Header/SearchBar'
 export default function Display(){
-   const characters = data;
    return<>
         <div>
-            <EmojiExtract characterData = {characters}/>
+            <EmojiExtract characterData = {data}  />
         </div>
     </>
 }

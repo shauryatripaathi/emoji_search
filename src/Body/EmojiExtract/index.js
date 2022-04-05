@@ -4,12 +4,12 @@ export default function EmojiExtract(props){
         alert(e.target)
     }
     return<>
-        <div className="dataExtract">{props.characterData.map((a,index)=>{
+        <div className="dataExtract">{props.characterData.map((item,index)=>{
             return(
                 <div key={index}>
-                <div onClick={handleOnClick} className='emojiList'>{a.symbol}</div>
-                </div>
-            )
-        })}</div>
+                <div onClick={handleOnClick} className='emojiList'>{item.symbol}</div>
+                </div> 
+            )})}
+        </div>
     </>
 }
