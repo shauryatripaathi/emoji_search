@@ -6,6 +6,11 @@
     gap: 4px;
 }
 .emojiList{
-    margin-top: 10px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    height: fit-content;
     width: 400px;
+    margin-left: 450px;
 }
