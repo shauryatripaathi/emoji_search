@@ -5,3 +5,7 @@
     justify-content: center;
     gap: 4px;
 }
+.emojiList{
+    margin-top: 10px;
+    width: 400px;
+}
