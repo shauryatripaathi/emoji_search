@@ -1,8 +1,9 @@
 import data from '../../data/data.json'
 import EmojiExtract from '../EmojiExtract'
-import SearchBar from '../../Header/SearchBar'
-export default function Display(){
+import EmojiGrid from '../EmojiGrid'
+export default function Display(props){
    return<>
+       <div><EmojiGrid /></div>
         <div>
             <EmojiExtract characterData = {data}  />
         </div>
