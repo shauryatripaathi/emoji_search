@@ -1,16 +1,16 @@
+import './style.css'
 import data from '../../data/data.json'
 export default function EmojiGrid(props){
     return(
         <>
-        <div>
             {data.filter((emoji => emoji.keywords.includes(props.searchText))).map((item,index)=>{
                 return (
-                    <div>
+                    <li className='emojiList'>
                         {item.symbol}
-                    </div>
+                    </li>
                 )
             })}
-        </div>
+        
         </>
     )
 }
