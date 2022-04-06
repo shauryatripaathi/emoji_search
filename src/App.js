@@ -1,11 +1,11 @@
 import './App.css';
 import Display from './Body/Display';
-import NavBar from './Header/NavBar';
+import HeaderSearch from './Header/HeaderSearch';
 
 function App() {
   return (
     <>
-    <NavBar/>
+    <HeaderSearch/>
     <Display/>
     </>
     )
