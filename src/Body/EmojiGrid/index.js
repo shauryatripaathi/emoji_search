@@ -4,7 +4,7 @@ export default function EmojiGrid(props){
     return(
         <>
         
-            {data.filter((emoji => emoji.keywords.includes(props.searchText))).map((item,index)=>{
+            {data.filter((emoji => emoji.keywords.includes(props.searchText))).map((item)=>{
                 return (
                     <div>
                         {item.symbol}
