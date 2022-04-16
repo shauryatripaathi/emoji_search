@@ -1,14 +1,11 @@
-import './App.css';
-import Display from './Body/Display';
-import NavBar from './Header/NavBar';
+import HeaderSearch from './Header/HeaderSearch';
 
 function App() {
   return (
     <>
-    <NavBar/>
-    <Display/>
+      <HeaderSearch />
     </>
-    )
+  )
 }
 
 export default App;
